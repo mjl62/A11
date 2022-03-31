@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+	
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 600px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px;
+	border-style: solid;
+	border-color: #931420;
+	background-color: #fffded;
+}
+
+html {
+	background-color: #FFFFFF;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 10%, #FFFFFF 50%, #f6bb73 90%, #f6bb73 100%);
+}
+
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+
+
+/* the styles for the section */
+main {
+	clear: left;
+	padding-right: 30px;
+	padding-left: 30px;	
+}
+
+main h1 {
+	font-size: 150%;
+	border-top: 3px;
+	border-bottom: 3px;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+main h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+main h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+main img {
+	padding-bottom: 1em;
+}
+main p {
+	padding-bottom: .5em;
+}
+main blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+main li {
+	padding-bottom: .35em;
+}
+
+
+a:focus, a:hover {
+	font-style: italic;
+}
+
+footer {
+	color: #FFFFFF;
+	background-color: #931420;
+}
+
+/* the styles for the footer */
+footer p {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
+/* class styles */
+.shadow {
+	text-shadow: 1px 1px #800000;
+}
+
+/* speakers styles */
+.speakerBox {
+	text-indent: 8%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: double;
+	border-color: #800000;
+	border-radius: 10px;
+	box-shadow: 6px 6px #000000;
+}
